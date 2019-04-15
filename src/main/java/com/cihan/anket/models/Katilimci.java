@@ -1,4 +1,4 @@
-package com.cihan.anket.model;
+package com.cihan.anket.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "katilimci")
-public class Katilimci {
+public class Katilimci extends BaseEntity{
 	private int id ; 
 	private String adiSoyadi  ;
 	private Sektor sektor;

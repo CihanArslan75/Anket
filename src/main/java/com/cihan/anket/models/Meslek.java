@@ -1,4 +1,4 @@
-package com.cihan.anket.model;
+package com.cihan.anket.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
